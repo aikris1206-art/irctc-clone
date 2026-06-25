@@ -2,31 +2,48 @@
 <html>
 <head>
     <title>Railway Booking Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Railway Booking System</h1>
+<nav>
+    Railway Booking Demo
+</nav>
 
-<p>Welcome to Railway Booking Demo Website</p>
+<div class="container">
 
-<form>
-    <label>From Station:</label>
-    <input type="text" placeholder="Lucknow">
+    <h2>Search Trains</h2>
 
-    <br><br>
+    <form>
+        <label>From Station</label>
+        <input type="text" placeholder="Lucknow">
 
-    <label>To Station:</label>
-    <input type="text" placeholder="Delhi">
+        <label>To Station</label>
+        <input type="text" placeholder="Delhi">
 
-    <br><br>
+        <label>Journey Date</label>
+        <input type="date">
 
-    <label>Date:</label>
-    <input type="date">
+        <button type="submit">Search Trains</button>
+    </form>
 
-    <br><br>
+    <div class="train-list">
+        <h3>Available Trains</h3>
 
-    <button type="submit">Search Trains</button>
-</form>
+        <div class="train">
+            12301 Rajdhani Express
+        </div>
+
+        <div class="train">
+            12004 Shatabdi Express
+        </div>
+
+        <div class="train">
+            12230 Lucknow Mail
+        </div>
+    </div>
+
+</div>
 
 </body>
 </html>
