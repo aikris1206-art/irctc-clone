@@ -14,28 +14,36 @@
 
     <h2>Search Trains</h2>
 
-    <label>From Station</label>
-    <input type="text" placeholder="Lucknow">
+    <form>
+        <label>From Station</label>
+        <input type="text" placeholder="Lucknow">
 
-    <label>To Station</label>
-    <input type="text" placeholder="Delhi">
+        <label>To Station</label>
+        <input type="text" placeholder="Delhi">
 
-    <label>Journey Date</label>
-    <input type="date">
+        <label>Journey Date</label>
+        <input type="date">
 
-    <button onclick="searchTrains()">
-        Search Trains
-    </button>
+        <button type="submit">Search Trains</button>
+    </form>
 
     <div class="train-list">
         <h3>Available Trains</h3>
 
-        <div id="trainList"></div>
+        <div class="train">
+            12301 Rajdhani Express
+        </div>
+
+        <div class="train">
+            12004 Shatabdi Express
+        </div>
+
+        <div class="train">
+            12230 Lucknow Mail
+        </div>
     </div>
 
 </div>
-
-<script src="script.js"></script>
 
 </body>
 </html>
